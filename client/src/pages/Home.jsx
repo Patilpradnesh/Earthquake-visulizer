@@ -54,7 +54,7 @@ export const Home = () => {
         <div className=" bg-opacity-75 p-4 rounded shadow text-light">
           <h2>Navigate Towards Information</h2>
           <ul className="list-unstyled">
-            <li><Link to="/about" className="btn btn-outline-info btn-block">About</Link></li>
+            <li><Link to="/about" className="btn btn-outline-info btn-block mb-2">About</Link></li>
             <li><Link to="/map" className="btn btn-outline-info btn-block mb-2">View Map</Link></li>
             <li><Link to="/data" className="btn btn-outline-info btn-block mb-2">Earthquake List</Link></li>
           </ul>
