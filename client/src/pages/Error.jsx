@@ -1,0 +1,28 @@
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+export const Error=()=> {
+  return (
+   <>
+   <section className="container mt-5" >
+     
+        <div className="alert alert-danger" role="alert">
+          <h2 className="header">404</h2>
+          <h4 className="alert-heading">Sorry! Page Not Found.</h4>
+          
+          <p>
+            Oops! It seems like the page you're trying to access doesn't exist.
+            if you believe there's an issue, feel free to report it, and we'll
+            look into it.
+          </p>
+
+          <div className="btn-group">
+            <a href="/" className="btn">Return Home</a>
+            <a href="/service" className="btn">Report problem</a>
+          </div>
+        </div>
+      
+     </section>
+   </>
+  )
+}
