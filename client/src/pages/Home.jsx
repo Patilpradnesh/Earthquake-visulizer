@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Globe from "../component/Globe";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   const globeRef = useRef();
@@ -53,9 +54,9 @@ export const Home = () => {
         <div className=" bg-opacity-75 p-4 rounded shadow text-light">
           <h2>Navigate Towards Information</h2>
           <ul className="list-unstyled">
-            <li><a href="/map" className="btn btn-outline-info btn-block mb-2">View Map</a></li>
-            <li><a href="/data" className="btn btn-outline-info btn-block mb-2">Earthquake List</a></li>
-            <li><a href="/about" className="btn btn-outline-info btn-block">About</a></li>
+            <li><Link to="/about" className="btn btn-outline-info btn-block">About</Link></li>
+            <li><Link to="/map" className="btn btn-outline-info btn-block mb-2">View Map</Link></li>
+            <li><Link to="/data" className="btn btn-outline-info btn-block mb-2">Earthquake List</Link></li>
           </ul>
         </div>
       </div>
