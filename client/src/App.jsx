@@ -6,7 +6,7 @@ import {Home} from './pages/Home';
 import {EarthquakeMap} from './pages/EarthquakeMap';
 import {EarthquakeData} from './pages/EarthquakeData';
 import {Error} from  './pages/Error';
-import { About } from "./pages/about";
+import { About } from "./pages/About";
 
 
 
