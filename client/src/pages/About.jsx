@@ -19,7 +19,7 @@ export const About = () => {
               rel="noopener noreferrer"
             >
               USGS Earthquake API
-            </a>{" "}
+            </a>
             and displays it on an interactive map, allowing users to visualize
             seismic patterns and access detailed information about each event.
           </p>
